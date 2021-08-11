@@ -1,5 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017
-      database: api_rest_webflux
+      uri: mongodb://root:root@localhost:27017/api_rest_webflux
