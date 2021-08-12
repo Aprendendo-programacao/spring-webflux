@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import me.gabreuw.springwebflux.document.Playlist;
 import me.gabreuw.springwebflux.service.PlaylistService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
@@ -12,7 +11,6 @@ import reactor.core.publisher.Mono;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.BodyInserters.fromPublisher;
 
-@Component
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class PlaylistHandler {
 
