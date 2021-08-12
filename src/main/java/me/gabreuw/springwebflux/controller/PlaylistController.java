@@ -11,8 +11,6 @@ import reactor.core.publisher.Mono;
 
 import static org.springframework.http.HttpStatus.CREATED;
 
-@RestController
-@RequestMapping(path = "/playlists")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class PlaylistController {
 
