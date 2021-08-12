@@ -6,11 +6,13 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.io.Serializable;
+
 @Document
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Playlist {
+public class Playlist implements Serializable {
 
     @Id
     private String id;
